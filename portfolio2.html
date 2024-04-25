@@ -12,15 +12,15 @@
      <section class="h-auto w-screen bg-[#ffffff]" id="screen">
           <!-- Profile Information / Navigation Bar -->
           <section class="h-50 w-screen md:h-36 bg-white shadow-lg flex flex-col justify-between items-center px-20 md:flex-row md:py-0 py-10">
-               <section class="flex items-center">
+               <section class="grid md:grid-cols-2 place-items-center">
                     <section>
-                         <img src="/Material/user-img.jpg" alt="" width="100px" class="hidden sm:block rounded-full min-w-28">
+                         <img src="/Material/profile.jpg" alt="" width="100px" class="aspect-square object-cover rounded-full">
                     </section>
                     <section>
                          <h1 class="text-3xl font-extrabold tracking-wide text-nowrap">
                               Omkar Bokil<span class="text-[#fdca40] text-5xl">.</span>
                          </h1 >
-                         <h3 class="text-lg">
+                         <h3 class="text-lg text-center md:text-left">
                               Developer
                          </h3>
                     </section>
@@ -109,7 +109,7 @@
                </section>
           </section>
      </section>
-     <!-- <section class="px-40 mt-14 flex flex-col items-center justify-center gap-10">
+     <section class="px-10 sm:p-0 sm:mx-40 mt-14 flex flex-col items-center justify-center gap-5">
           <h1 class="text-3xl font-bold">
                Experience
           </h1>
@@ -127,20 +127,22 @@
                     Contributed to an Enterprise Resource Planning Team, developing APIs and UI using latest technologies.
                </section>
           </section>
-     </section> -->
-     <section class="mt-14 flex flex-col place-items-center gap-3 px-10 sm:p-0 sm:mx-40">
+     </section>
+     <section class="mt-14 flex flex-col place-items-center gap-5 px-10 sm:p-0 sm:mx-40">
           <h1 class="text-3xl font-bold">
                Projects
           </h1>
           <section class="grid gap-10 md:grid-cols-2 text-center place-items-center md:w-[50rem] p-5">
                <section class="grid gap-3 place-items-center">
-                    <img src="/Material/oneshop.png" alt="" class="w-[100%] rounded-lg bg-cover shadow-lg">
+                    <a href="https://one-shop-psi.vercel.app/" target="_blank">
+                         <img src="/Material/oneshop.png" alt="" class="w-[100%] rounded-lg bg-cover shadow-md hover:shadow-lg transition-all">
+                    </a>
                </section>
                <section class="grid text-left text-wrap place-items-start">
                     <h1 class="text-2xl font-bold flex items-center gap-3">
                          One Shop
                          <span class="material-symbols-rounded text-blue-500">
-                              <a href="https://one-shop-psi.vercel.app/" target="_blank">open_in_new</a>
+                              <a href="https://one-shop-psi.vercel.app/" target="_blank" class="text-xl">open_in_new</a>
                          </span>
                     </h1>
                     <div class="text-wrap">
@@ -160,7 +162,7 @@
                     <h1 class="text-2xl font-bold flex items-center gap-3">
                          Healthy Khaoo
                          <span class="material-symbols-rounded text-blue-500">
-                              <a href="https://healthy-khaoo.vercel.app/" target="blank">open_in_new</a>
+                              <a href="https://healthy-khaoo.vercel.app/" target="blank" class="text-xl">open_in_new</a>
                          </span>
                     </h1>
                     <div class="text-wrap">
@@ -173,7 +175,9 @@
                     </h5>
                </section>
                <section class="grid gap-3 place-items-center">
-                    <img src="/Material/healthykhaoo.png" alt="" class="w-[100%] rounded-lg bg-cover shadow-lg cursor-pointer">
+                    <a href="https://healthy-khaoo.vercel.app/" target="blank">
+                         <img src="/Material/healthykhaoo.png" alt="" class="w-[100%] rounded-lg bg-cover shadow-md hover:shadow-lg transition-all">
+                    </a>
                </section>
           </section>
 
