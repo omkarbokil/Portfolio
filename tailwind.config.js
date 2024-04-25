@@ -1,8 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'arimo'         : ['Arimo'],
+        'rubik'         : ['Rubik'],
+        'robotomono'    : ['Roboto Mono'],
+        'roboto'        : ['Roboto'],
+        'figtree'       : ['Figtree'],
+        'spacegrotesk'  : ['Space Grotesk'],
+        'worksans'      : ['Work Sans'],
+        'leaguespartan' : ['League Spartan'],
+        'raleway'       : ['Raleway'],
+        'expletussans'  : ['Expletus Sans']
+      },
+    },
   },
   plugins: [],
 }
